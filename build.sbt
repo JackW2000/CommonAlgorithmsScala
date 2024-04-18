@@ -7,3 +7,5 @@ lazy val root = (project in file("."))
     name := "CommonAlgorithmsScala",
     idePackagePrefix := Some("com.jackw")
   )
+
+libraryDependencies += "net.aichler" % "jupiter-interface" % "0.11.1" % "test->default"
